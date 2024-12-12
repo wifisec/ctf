@@ -70,6 +70,7 @@ repos=(
     "https://github.com/dostoevskylabs/dostoevsky-pentest-notes.git"
     "https://github.com/Flangvik/SharpCollection.git"
     "https://github.com/S3cur3Th1sSh1t/PowerSharpPack.git"
+    "https://github.com/t3l3machus/hoaxshell.git"
 )
 
 # List of files to download with specific output names
