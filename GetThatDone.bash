@@ -71,6 +71,7 @@ repos=(
     "https://github.com/Flangvik/SharpCollection.git"
     "https://github.com/S3cur3Th1sSh1t/PowerSharpPack.git"
     "https://github.com/t3l3machus/hoaxshell.git"
+    "https://github.com/Tuhinshubhra/CMSeeK"
 )
 
 # List of files to download with specific output names
