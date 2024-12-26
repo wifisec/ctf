@@ -72,6 +72,20 @@ repos=(
     "https://github.com/S3cur3Th1sSh1t/PowerSharpPack.git"
     "https://github.com/t3l3machus/hoaxshell.git"
     "https://github.com/Tuhinshubhra/CMSeeK"
+    "https://github.com/0xJs/RedTeaming_CheatSheet.git"
+    "https://github.com/AlessandroZ/LaZagne.git"
+    "https://github.com/t3l3machus/Villain.git"
+    "https://github.com/t3l3machus/hoaxshell.git"
+    "https://github.com/jpillora/chisel.git"
+    "https://github.com/klsecservices/rpivot.git"
+    "https://github.com/sshuttle/sshuttle.git"
+    "https://github.com/nicocha30/ligolo-ng.git"
+    "https://github.com/GhostPack/Seatbelt.git"
+    "https://github.com/GhostPack/Rubeus.git"
+    "https://github.com/GhostPack/Certify.git"
+    "https://github.com/GhostPack/SharpUp.git"
+    "https://github.com/GhostPack/SafetyKatz.git"
+    "https://github.com/GhostPack/SharpDPAPI.git"
 )
 
 # List of files to download with specific output names
@@ -79,6 +93,7 @@ files=(
     "https://gist.githubusercontent.com/joswr1ght/22f40787de19d80d110b37fb79ac3985/raw/c871f130a12e97090a08d0ab855c1b7a93ef1150/easy-simple-php-webshell.php easy-simple-php-webshell.php"
     "https://github.com/neox41/WinEnum/blob/master/WinEnum.bat WinEnum.bat"
     "https://raw.githubusercontent.com/rebootuser/LinEnum/refs/heads/master/LinEnum.sh LinEnum.sh"
+    "https://www.picussecurity.com/hubfs/Threat%20Readiness%20-%20Active%20Directory%20Ebook%20-%20Q123/Picus-The-Complete-Active-Directory-Security-Handbook.pdf Picus-The-Complete-Active-Directory-Security-Handbook.pdf"
     "https://315180959-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MRh03Vwd4nuiUi3Oje7%2Fuploads%2Fy1seVZGWtwTeflnv1xzu%2FRed_Team_and_Operational_Security.zip?alt=media&token=2d38a749-6e5e-46b1-8e6e-f622efa9d7c7 Red_Team_and_Operational_Security.zip"
 )
 
