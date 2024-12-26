@@ -8,7 +8,7 @@
     Allows specifying single ports and port ranges, and enables TCP or UDP scanning using flags.
 
 .USAGE
-    ./bscan.ps1 -TargetIP <target_ip> -Ports <ports> -Timeout <timeout> -ScanType <TCP | UDP>
+    ./port_scanner.ps1 -TargetIP <target_ip> -Ports <ports> -Timeout <timeout> -ScanType <TCP | UDP>
 
 .PARAMETER TargetIP
     The target IP address to scan.
@@ -26,7 +26,7 @@
     Adair John Collins
 
 .VERSION
-    1.0
+    1.1
 #>
 
 param (
@@ -38,6 +38,7 @@ param (
 
 # Variables
 $LogFile = "port_scan_$(Get-Date -Format 'yyyyMMdd_HHmmss').log"
+$SummaryTable = @()
 
 # Initialize log file
 New-Item -Path $LogFile -ItemType File -Force
@@ -69,90 +70,7 @@ function Scan-TCPPort {
 
             $buffer = New-Object Byte[] 1024
             $networkStream.Read($buffer, 0, $buffer.Length)
-            $banner = [Text.Encoding]::ASCII.GetString($buffer)
+            $banner = [Text.Encoding]::ASCII.GetString($buffer).Trim([char]0)
             if ($banner) {
                 Log-Message "Banner for TCP port $Port:`n$banner"
-            } else {
-                Log-Message "No banner received for TCP port $Port."
-            }
-
-            $networkStream.Close()
-            $tcpClient.Close()
-        } else {
-            Log-Message "TCP port $Port is closed or filtered."
-        }
-    } catch {
-        Log-Message "Error scanning TCP port $Port: $_"
-    }
-}
-
-# Function to scan a single UDP port and grab banner
-function Scan-UDPPort {
-    param (
-        [int]$Port
-    )
-    Log-Message "`nScanning UDP port $Port..."
-
-    try {
-        $udpClient = New-Object Net.Sockets.UdpClient
-        $udpClient.Connect($TargetIP, $Port)
-
-        $sendBytes = [Text.Encoding]::ASCII.GetBytes("Hello")
-        $udpClient.Send($sendBytes, $sendBytes.Length)
-
-        Start-Sleep -Seconds $Timeout
-
-        if ($udpClient.Available -gt 0) {
-            $receivedBytes = $udpClient.Receive([ref]$remoteEndPoint)
-            $banner = [Text.Encoding]::ASCII.GetString($receivedBytes)
-            if ($banner) {
-                Log-Message "Banner for UDP port $Port:`n$banner"
-            } else {
-                Log-Message "No banner received for UDP port $Port."
-            }
-        } else {
-            Log-Message "UDP port $Port is open but no banner received."
-        }
-
-        $udpClient.Close()
-    } catch {
-        Log-Message "Error scanning UDP port $Port: $_"
-    }
-}
-
-# Function to process the ports argument and scan ports
-function Process-Ports {
-    param (
-        [string]$PortsArg
-    )
-    $PortsArray = $PortsArg -split ','
-
-    foreach ($PortSpec in $PortsArray) {
-        if ($PortSpec -contains '-') {
-            $Range = $PortSpec -split '-'
-            for ($Port = [int]$Range[0]; $Port -le [int]$Range[1]; $Port++) {
-                if ($ScanType -eq "TCP") {
-                    Scan-TCPPort -Port $Port
-                } elseif ($ScanType -eq "UDP") {
-                    Scan-UDPPort -Port $Port
-                }
-            }
-        } else {
-            if ($ScanType -eq "TCP") {
-                Scan-TCPPort -Port [int]$PortSpec
-            } elseif ($ScanType -eq "UDP") {
-                Scan-UDPPort -Port [int]$PortSpec
-            }
-        }
-    }
-}
-
-# Main function to start the port scanning
-function Main {
-    Log-Message "Starting port scanning on $TargetIP for ports: $Ports"
-    Process-Ports -PortsArg $Ports
-    Log-Message "`nPort scanning completed. Results saved in $LogFile."
-}
-
-# Run the main function
-Main
+                $SummaryTable += "$TargetIP|TCP|

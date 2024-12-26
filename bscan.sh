@@ -23,7 +23,7 @@
 #     Adair John Collins
 #
 # VERSION
-#     1.0
+#     1.1
 # --------------------------------------------------------------------
 
 # Check if correct number of arguments are provided
@@ -38,6 +38,7 @@ PORTS="$2"
 TIMEOUT="$3"
 SCAN_TYPE="$4"
 LOG_FILE="port_scan_$(date +%Y%m%d_%H%M%S).log"
+SUMMARY_TABLE=()
 
 # Initialize log file
 : > "$LOG_FILE"
@@ -64,8 +65,10 @@ scan_tcp_port() {
         banner=$(cat <&3)
         if [ -n "$banner" ]; then
             log_message "Banner for TCP port $port:\n$banner"
+            SUMMARY_TABLE+=("$TARGET_IP|TCP|$port|$banner")
         else
             log_message "No banner received for TCP port $port."
+            SUMMARY_TABLE+=("$TARGET_IP|TCP|$port|No banner")
         fi
     else
         log_message "TCP port $port is closed or filtered."
@@ -90,8 +93,10 @@ scan_udp_port() {
         banner=$(cat <&3)
         if [ -n "$banner" ]; then
             log_message "Banner for UDP port $port:\n$banner"
+            SUMMARY_TABLE+=("$TARGET_IP|UDP|$port|$banner")
         else
             log_message "No banner received for UDP port $port."
+            SUMMARY_TABLE+=("$TARGET_IP|UDP|$port|No banner")
         fi
     else
         log_message "UDP port $port is closed or filtered."
@@ -125,10 +130,20 @@ process_ports() {
     done
 }
 
+# Function to display and log summary table
+display_summary_table() {
+    log_message "\nSummary Table:"
+    log_message "IP Address | Protocol | Port | Banner"
+    for entry in "${SUMMARY_TABLE[@]}"; do
+        log_message "$entry"
+    done
+}
+
 # Main function to start the port scanning
 main() {
     log_message "Starting port scanning on $TARGET_IP for ports: $PORTS"
     process_ports "$PORTS"
+    display_summary_table
     log_message "\nPort scanning completed. Results saved in $LOG_FILE."
 }
 
