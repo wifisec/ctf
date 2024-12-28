@@ -8,7 +8,7 @@
     Allows specifying single ports and port ranges, and enables TCP or UDP scanning using flags.
 
 .USAGE
-    ./port_scanner.ps1 -TargetIP <target_ip> -Ports <ports> -Timeout <timeout> -ScanType <TCP | UDP>
+    ./psscaner.ps1 -TargetIP <target_ip> -Ports <ports> -Timeout <timeout> -ScanType <TCP | UDP>
 
 .PARAMETER TargetIP
     The target IP address to scan.
