@@ -86,6 +86,7 @@ repos=(
     "https://github.com/GhostPack/SharpUp.git"
     "https://github.com/GhostPack/SafetyKatz.git"
     "https://github.com/GhostPack/SharpDPAPI.git"
+    "https://github.com/hideckies/exploit-notes.git"
 )
 
 # List of files to download with specific output names
