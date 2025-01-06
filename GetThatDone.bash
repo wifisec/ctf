@@ -92,6 +92,9 @@ repos=(
     "https://github.com/411Hall/JAWS.git"
     "https://github.com/0xJs/OSCP_cheatsheet.git"
     "https://github.com/diego-treitos/linux-smart-enumeration.git"
+    "https://github.com/enjoiz/Privesc.git"
+    "https://github.com/AlessandroZ/BeRoot.git"
+    "https://github.com/0xJs/CARTP-cheatsheet.git"
 )
 
 # List of files to download with specific output names
