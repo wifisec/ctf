@@ -91,6 +91,7 @@ repos=(
     "https://github.com/mthbernardes/rsg.git"
     "https://github.com/411Hall/JAWS.git"
     "https://github.com/0xJs/OSCP_cheatsheet.git"
+    "https://github.com/diego-treitos/linux-smart-enumeration.git"
 )
 
 # List of files to download with specific output names
