@@ -89,6 +89,7 @@ repos=(
     "https://github.com/hideckies/exploit-notes.git"
     "https://github.com/Tib3rius/windowsprivchecker.git"
     "https://github.com/mthbernardes/rsg.git"
+    "https://github.com/411Hall/JAWS.git"
 )
 
 # List of files to download with specific output names
@@ -99,6 +100,7 @@ files=(
     "https://www.picussecurity.com/hubfs/Threat%20Readiness%20-%20Active%20Directory%20Ebook%20-%20Q123/Picus-The-Complete-Active-Directory-Security-Handbook.pdf Picus-The-Complete-Active-Directory-Security-Handbook.pdf"
     "https://315180959-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MRh03Vwd4nuiUi3Oje7%2Fuploads%2Fy1seVZGWtwTeflnv1xzu%2FRed_Team_and_Operational_Security.zip?alt=media&token=2d38a749-6e5e-46b1-8e6e-f622efa9d7c7 Red_Team_and_Operational_Security.zip"
     "https://github.com/pwnwiki/pwnwiki.github.io/archive/master.zip pwnwiki.zip"
+    "https://raw.githubusercontent.com/frizb/MSF-Venom-Cheatsheet/refs/heads/master/README.md MSF-Venom-Cheatsheet.md" 
 )
 
 #"https://mega.nz/file/cr5HGACC#ANXlTyu8sdlIUizcIX418sa1C2M4Ame_3bjxU9xXGfY brockyou.txt.zip"
