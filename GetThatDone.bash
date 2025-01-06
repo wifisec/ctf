@@ -88,6 +88,7 @@ repos=(
     "https://github.com/GhostPack/SharpDPAPI.git"
     "https://github.com/hideckies/exploit-notes.git"
     "https://github.com/Tib3rius/windowsprivchecker.git"
+    "https://github.com/mthbernardes/rsg.git"
 )
 
 # List of files to download with specific output names
