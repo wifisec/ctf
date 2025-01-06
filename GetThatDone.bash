@@ -90,6 +90,7 @@ repos=(
     "https://github.com/Tib3rius/windowsprivchecker.git"
     "https://github.com/mthbernardes/rsg.git"
     "https://github.com/411Hall/JAWS.git"
+    "https://github.com/0xJs/OSCP_cheatsheet.git"
 )
 
 # List of files to download with specific output names
