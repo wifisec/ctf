@@ -95,6 +95,7 @@ repos=(
     "https://github.com/enjoiz/Privesc.git"
     "https://github.com/AlessandroZ/BeRoot.git"
     "https://github.com/0xJs/CARTP-cheatsheet.git"
+    "https://github.com/jondonas/linux-exploit-suggester-2.git"
 )
 
 # List of files to download with specific output names
