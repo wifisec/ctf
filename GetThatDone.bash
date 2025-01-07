@@ -97,6 +97,8 @@ repos=(
     "https://github.com/0xJs/CARTP-cheatsheet.git"
     "https://github.com/jondonas/linux-exploit-suggester-2.git"
     "https://github.com/PShlyundin/ldap_shell.git"
+    "https://github.com/CravateRouge/autobloody.git"
+    "https://github.com/CravateRouge/bloodyAD.git"
 )
 
 # List of files to download with specific output names
