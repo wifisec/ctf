@@ -99,6 +99,7 @@ repos=(
     "https://github.com/PShlyundin/ldap_shell.git"
     "https://github.com/CravateRouge/autobloody.git"
     "https://github.com/CravateRouge/bloodyAD.git"
+    "https://github.com/dollarboysushil/oscp-cpts-notes.git"
 )
 
 # List of files to download with specific output names
