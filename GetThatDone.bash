@@ -114,6 +114,8 @@ files=(
 )
 
 #"https://mega.nz/file/cr5HGACC#ANXlTyu8sdlIUizcIX418sa1C2M4Ame_3bjxU9xXGfY brockyou.txt.zip"
+#"https://cornerpirate.com/2021/06/17/grabbing-ntlm-hashes-with-responder-then-what/"
+#"https://labs.nettitude.com/tools/rocktastic/"
 
 # Clone all repositories
 for repo in "${repos[@]}"; do
