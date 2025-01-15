@@ -100,6 +100,8 @@ repos=(
     "https://github.com/CravateRouge/autobloody.git"
     "https://github.com/CravateRouge/bloodyAD.git"
     "https://github.com/dollarboysushil/oscp-cpts-notes.git"
+    "https://github.com/ly4k/Certipy.git"
+    "https://github.com/ropnop/kerbrute.git"
 )
 
 # List of files to download with specific output names
