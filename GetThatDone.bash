@@ -102,6 +102,7 @@ repos=(
     "https://github.com/dollarboysushil/oscp-cpts-notes.git"
     "https://github.com/ly4k/Certipy.git"
     "https://github.com/ropnop/kerbrute.git"
+    "https://github.com/61106960/adPEAS.git"
 )
 
 # List of files to download with specific output names
