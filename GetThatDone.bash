@@ -103,6 +103,7 @@ repos=(
     "https://github.com/ly4k/Certipy.git"
     "https://github.com/ropnop/kerbrute.git"
     "https://github.com/61106960/adPEAS.git"
+    "https://github.com/Kitsun3Sec/Pentest-Cheat-Sheets.git"
 )
 
 # List of files to download with specific output names
