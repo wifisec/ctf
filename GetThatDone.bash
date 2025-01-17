@@ -104,6 +104,7 @@ repos=(
     "https://github.com/ropnop/kerbrute.git"
     "https://github.com/61106960/adPEAS.git"
     "https://github.com/Kitsun3Sec/Pentest-Cheat-Sheets.git"
+    "https://github.com/ShutdownRepo/pywhisker.git"
 )
 
 # List of files to download with specific output names
