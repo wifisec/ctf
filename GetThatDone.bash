@@ -105,6 +105,7 @@ repos=(
     "https://github.com/61106960/adPEAS.git"
     "https://github.com/Kitsun3Sec/Pentest-Cheat-Sheets.git"
     "https://github.com/ShutdownRepo/pywhisker.git"
+    "https://github.com/k4sth4/Abusing-rights-in-a-Domain"
 )
 
 # List of files to download with specific output names
@@ -118,6 +119,8 @@ files=(
     "https://raw.githubusercontent.com/frizb/MSF-Venom-Cheatsheet/refs/heads/master/README.md MSF-Venom-Cheatsheet.md"
     "https://raw.githubusercontent.com/juliourena/plaintext/refs/heads/master/Powershell/PSUpload.ps1 PSUpload.ps1"
     "https://specterops.io/wp-content/uploads/sites/3/2022/06/Certified_Pre-Owned.pdf Certified_Pre-Owned.pdf"
+    "https://media.defense.gov/2024/Sep/25/2003553985/-1/-1/0/CTR-Detecting-and-Mitigating-AD-Compromises.PDF CTR-Detecting-and-Mitigating-AD-Compromises.PDF"
+    "https://www.blackhat.com/docs/webcast/04262018-Webcast-Toxic-Waste-Removal-by-Andy-Robbins.pdf 04262018-Webcast-Toxic-Waste-Removal-by-Andy-Robbins.pdf" 
 )
 
 #"https://mega.nz/file/cr5HGACC#ANXlTyu8sdlIUizcIX418sa1C2M4Ame_3bjxU9xXGfY brockyou.txt.zip"
