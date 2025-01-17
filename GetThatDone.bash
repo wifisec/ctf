@@ -115,6 +115,7 @@ files=(
     "https://github.com/pwnwiki/pwnwiki.github.io/archive/master.zip pwnwiki.zip"
     "https://raw.githubusercontent.com/frizb/MSF-Venom-Cheatsheet/refs/heads/master/README.md MSF-Venom-Cheatsheet.md"
     "https://raw.githubusercontent.com/juliourena/plaintext/refs/heads/master/Powershell/PSUpload.ps1 PSUpload.ps1"
+    "https://specterops.io/wp-content/uploads/sites/3/2022/06/Certified_Pre-Owned.pdf Certified_Pre-Owned.pdf"
 )
 
 #"https://mega.nz/file/cr5HGACC#ANXlTyu8sdlIUizcIX418sa1C2M4Ame_3bjxU9xXGfY brockyou.txt.zip"
