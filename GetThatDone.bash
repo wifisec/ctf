@@ -107,6 +107,7 @@ repos=(
     "https://github.com/ShutdownRepo/pywhisker.git"
     "https://github.com/k4sth4/Abusing-rights-in-a-Domain"
     "https://github.com/adrecon/ADRecon.git"
+    "https://github.com/dirkjanm/ldapdomaindump.git"
 )
 
 # List of files to download with specific output names
