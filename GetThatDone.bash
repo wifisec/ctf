@@ -106,6 +106,7 @@ repos=(
     "https://github.com/Kitsun3Sec/Pentest-Cheat-Sheets.git"
     "https://github.com/ShutdownRepo/pywhisker.git"
     "https://github.com/k4sth4/Abusing-rights-in-a-Domain"
+    "https://github.com/adrecon/ADRecon.git"
 )
 
 # List of files to download with specific output names
