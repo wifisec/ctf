@@ -109,6 +109,7 @@ repos=(
     "https://github.com/adrecon/ADRecon.git"
     "https://github.com/dirkjanm/ldapdomaindump.git"
     "https://github.com/Tylous/Talon.git"
+    "https://github.com/AlessandroZ/BeRoot.git"
 )
 
 # List of files to download with specific output names
