@@ -112,6 +112,7 @@ repos=(
     "https://github.com/AlessandroZ/BeRoot.git"
     "https://github.com/Integration-IT/Active-Directory-Exploitation-Cheat-Sheet.git"
     "https://github.com/urbanadventurer/username-anarchy.git"
+    "https://github.com/CompassSecurity/BloodHoundQueries.git"
 )
 
 # List of files to download with specific output names
