@@ -114,6 +114,7 @@ repos=(
     "https://github.com/urbanadventurer/username-anarchy.git"
     "https://github.com/CompassSecurity/BloodHoundQueries.git"
     "https://raw.githubusercontent.com/shifty0g/ultimate-nmap-parser/refs/heads/master/ultimate-nmap-parser.sh"
+    "https://github.com/padovah4ck/PSByPassCLM.git"
 )
 
 # List of files to download with specific output names
