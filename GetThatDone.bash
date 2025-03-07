@@ -123,6 +123,9 @@ files=(
     "https://gist.githubusercontent.com/joswr1ght/22f40787de19d80d110b37fb79ac3985/raw/c871f130a12e97090a08d0ab855c1b7a93ef1150/easy-simple-php-webshell.php easy-simple-php-webshell.php"
     "https://github.com/neox41/WinEnum/blob/master/WinEnum.bat WinEnum.bat"
     "https://raw.githubusercontent.com/rebootuser/LinEnum/refs/heads/master/LinEnum.sh LinEnum.sh"
+    "https://raw.githubusercontent.com/peass-ng/PEASS-ng/refs/heads/master/winPEAS/winPEASps1/winPEAS.ps1"
+    "https://github.com/peass-ng/PEASS-ng/releases/download/20250301-c97fb02a/winPEASx86_ofs.exe"
+    "https://raw.githubusercontent.com/61106960/adPEAS/refs/heads/main/adPEAS.ps1"
     "https://www.picussecurity.com/hubfs/Threat%20Readiness%20-%20Active%20Directory%20Ebook%20-%20Q123/Picus-The-Complete-Active-Directory-Security-Handbook.pdf Picus-The-Complete-Active-Directory-Security-Handbook.pdf"
     "https://315180959-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MRh03Vwd4nuiUi3Oje7%2Fuploads%2Fy1seVZGWtwTeflnv1xzu%2FRed_Team_and_Operational_Security.zip?alt=media&token=2d38a749-6e5e-46b1-8e6e-f622efa9d7c7 Red_Team_and_Operational_Security.zip"
     "https://github.com/pwnwiki/pwnwiki.github.io/archive/master.zip pwnwiki.zip"
@@ -130,7 +133,11 @@ files=(
     "https://raw.githubusercontent.com/juliourena/plaintext/refs/heads/master/Powershell/PSUpload.ps1 PSUpload.ps1"
     "https://specterops.io/wp-content/uploads/sites/3/2022/06/Certified_Pre-Owned.pdf Certified_Pre-Owned.pdf"
     "https://media.defense.gov/2024/Sep/25/2003553985/-1/-1/0/CTR-Detecting-and-Mitigating-AD-Compromises.PDF CTR-Detecting-and-Mitigating-AD-Compromises.PDF"
-    "https://www.blackhat.com/docs/webcast/04262018-Webcast-Toxic-Waste-Removal-by-Andy-Robbins.pdf 04262018-Webcast-Toxic-Waste-Removal-by-Andy-Robbins.pdf" 
+    "https://www.blackhat.com/docs/webcast/04262018-Webcast-Toxic-Waste-Removal-by-Andy-Robbins.pdf 04262018-Webcast-Toxic-Waste-Removal-by-Andy-Robbins.pdf"
+    "https://raw.githubusercontent.com/ropnop/windapsearch/master/windapsearch.py"
+    "https://raw.githubusercontent.com/drtychai/wordlists/refs/heads/master/fasttrack.txt"
+    "https://raw.githubusercontent.com/insidetrust/statistically-likely-usernames/master/weak-corporate-passwords/english-basic.txt"
+    
 )
 
 #"https://mega.nz/file/cr5HGACC#ANXlTyu8sdlIUizcIX418sa1C2M4Ame_3bjxU9xXGfY brockyou.txt.zip"
