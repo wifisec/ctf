@@ -116,6 +116,7 @@ repos=(
     "https://raw.githubusercontent.com/shifty0g/ultimate-nmap-parser/refs/heads/master/ultimate-nmap-parser.sh"
     "https://github.com/padovah4ck/PSByPassCLM.git"
     "https://gist.githubusercontent.com/HarmJ0y/184f9822b195c52dd50c379ed3117993/raw/e5e30c942adb2347917563ef0dafa7054882535a/PowerView-3.0-tricks.ps1"
+    "https://raw.githubusercontent.com/gladiatx0r/Powerless/refs/heads/master/Powerless.bat"
 )
 
 # List of files to download with specific output names
