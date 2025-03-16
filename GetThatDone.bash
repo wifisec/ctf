@@ -138,7 +138,7 @@ files=(
     "https://raw.githubusercontent.com/ropnop/windapsearch/master/windapsearch.py"
     "https://raw.githubusercontent.com/drtychai/wordlists/refs/heads/master/fasttrack.txt"
     "https://raw.githubusercontent.com/insidetrust/statistically-likely-usernames/master/weak-corporate-passwords/english-basic.txt"
-    
+    "wget https://github.com/icsharpcode/AvaloniaILSpy/releases/download/v7.2-rc/Linux.x64.Release.zip"
 )
 
 #"https://mega.nz/file/cr5HGACC#ANXlTyu8sdlIUizcIX418sa1C2M4Ame_3bjxU9xXGfY brockyou.txt.zip"
