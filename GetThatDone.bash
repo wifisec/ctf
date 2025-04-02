@@ -119,6 +119,7 @@ repos=(
     "https://raw.githubusercontent.com/gladiatx0r/Powerless/refs/heads/master/Powerless.bat"
     "https://github.com/dirkjanm/krbrelayx.git"
     "https://github.com/AlmondOffSec/PassTheCert.git"
+    "https://github.com/hfiref0x/UACME.git"
 )
 
 # List of files to download with specific output names
