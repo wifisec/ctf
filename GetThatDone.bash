@@ -120,6 +120,7 @@ repos=(
     "https://github.com/dirkjanm/krbrelayx.git"
     "https://github.com/AlmondOffSec/PassTheCert.git"
     "https://github.com/hfiref0x/UACME.git"
+    "https://github.com/insidetrust/statistically-likely-usernames.git"
 )
 
 # List of files to download with specific output names
