@@ -121,6 +121,8 @@ repos=(
     "https://github.com/AlmondOffSec/PassTheCert.git"
     "https://github.com/hfiref0x/UACME.git"
     "https://github.com/insidetrust/statistically-likely-usernames.git"
+    "https://github.com/wietze/ArgFuscator.net.git"
+    "https://github.com/wavestone-cdt/EDRSandblast.git"
 )
 
 # List of files to download with specific output names
