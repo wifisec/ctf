@@ -123,8 +123,9 @@ repos=(
     "https://github.com/insidetrust/statistically-likely-usernames.git"
     "https://github.com/wietze/ArgFuscator.net.git"
     "https://github.com/wavestone-cdt/EDRSandblast.git"
-    "https://github.com/TNCX-byte/PS_SSE_Shell"
-    "https://github.com/GhnimiWael/LDAPHunter/blob/main/ldap_hunter.py"
+    "https://github.com/TNCX-byte/PS_SSE_Shell.git"
+    "https://github.com/GhnimiWael/LDAPHunter.git"
+    "https://github.com/AlessandroZ/LaZagne.git"
 )
 
 # List of files to download with specific output names
