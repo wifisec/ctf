@@ -126,6 +126,7 @@ repos=(
     "https://github.com/TNCX-byte/PS_SSE_Shell.git"
     "https://github.com/GhnimiWael/LDAPHunter.git"
     "https://github.com/AlessandroZ/LaZagne.git"
+    "https://github.com/3ndG4me/spraygen.git"
 )
 
 # List of files to download with specific output names
