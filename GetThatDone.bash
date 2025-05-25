@@ -155,6 +155,8 @@ files=(
     "https://raw.githubusercontent.com/infosecstreams/cheat.sheets/refs/heads/main/netexec.cheat"
     "https://raw.githubusercontent.com/pentestmonkey/finger-user-enum/refs/heads/master/finger-user-enum.pl"
     "https://raw.githubusercontent.com/TeneBrae93/CVE-2025-3243/refs/heads/main/CVE-2025-3243.py"
+    "https://github.com/blue0x1/uac-bypass-oneliners"
+    "https://github.com/ly4k/Certipy"
 )
 
 #"https://mega.nz/file/cr5HGACC#ANXlTyu8sdlIUizcIX418sa1C2M4Ame_3bjxU9xXGfY brockyou.txt.zip"
