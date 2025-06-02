@@ -128,6 +128,7 @@ repos=(
     "https://github.com/AlessandroZ/LaZagne.git"
     "https://github.com/3ndG4me/spraygen.git"
     "https://github.com/hfiref0x/UACME"
+    "https://github.com/hausec/ADAPE-Script"
 )
 
 # List of files to download with specific output names
