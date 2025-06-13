@@ -129,6 +129,7 @@ repos=(
     "https://github.com/3ndG4me/spraygen.git"
     "https://github.com/hfiref0x/UACME"
     "https://github.com/hausec/ADAPE-Script"
+    "https://github.com/RedTeamOperations/Red-Infra-Craft.git"
 )
 
 # List of files to download with specific output names
